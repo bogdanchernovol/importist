@@ -1,0 +1,173 @@
+@import '~antd/dist/antd.less';
+//https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+@input-height-base      : 36px;
+@line-height-base       : 1.6;
+@menu-item-color: #4d4d4d;
+@menu-highlight-color: #0095ff;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #000000;
+}
+h1, h2, h3, h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+.error-catch{
+  position: absolute;
+  transform: translate(-50%);
+  left: 50%;
+  top: 40%;
+  text-align: center;
+  font-size: 16px;
+}
+.display-all-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page-signIn{
+  height: 100vh;
+  color: #fff;
+  font-family: Roboto;
+  background-image: radial-gradient(circle at 51% 2%, #080808, #000000);
+
+  .font-mix{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  .title{
+    font-size: 24px;
+    text-align: center;
+    line-height: 1;
+  }
+  .ant-form-item-label{
+    padding-bottom: 3px;
+  }
+  .ant-form-item{
+    margin-bottom: 14px;
+  }
+  label{
+    .font-mix;
+  }
+  .btn-block{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #323232;
+  }
+  .btn-green{
+    background-image: linear-gradient(to bottom, #39b54a, #34aa44 98%);
+    border: none;
+    width: 100%;
+    margin-top: 6px;
+    height: 36px;
+  }
+  .btn-link-black{
+    height: 36px;
+    border-radius: 4px;
+    background-color: #273142;
+    border: solid 1px #313d4f;
+    margin-top: 20px;
+    vertical-align: middle;
+    line-height: 2.3;
+    text-align: center;
+    .font-mix;
+  }
+  .forgot-link{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: 0.5;
+    font-family: Roboto;
+    font-weight: bold;
+    padding-top: 14px;
+    a{
+      color: #ffffff;
+    }
+  }
+  .ant-form-explain{
+      position: absolute;
+      top: -22px;
+      right: 0;
+      font-family: Roboto;
+      font-size: 12px;
+      color: #ff374f;
+  }
+  .input-field{
+    background-color: #0f0f0f;
+    border-color: #2f2f2f;
+    color: #fff;
+  }
+}
+.btntext-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.b-upload{
+  position: relative;
+    bottom: 24px;
+}
+.flex-row-start{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.btn-gray{
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  border: solid 1px #dfdfdf;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+.btn-blue{
+  border-radius: 4px;
+  background-color: #0095ff;
+  border: solid 1px #038bec;
+  font-size: 16px;
+  color: #ffffff;
+}
+.block-photo{
+  display: flex;
+  justify-content: start;
+  .avatar-prnt{
+    margin-right: 12px;
+    position: relative;
+  }
+  img{
+    position: absolute;
+    top: -6px;
+    right: -7px;
+    cursor: pointer;
+  }
+}
+.avatar{
+  background-size: cover;
+  height: 113px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

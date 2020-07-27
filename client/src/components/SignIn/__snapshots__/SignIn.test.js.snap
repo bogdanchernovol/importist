@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn Component should render self 1`] = `
+<Row
+  className="page-signIn display-all-center"
+  gutter={0}
+>
+  <Auth>
+    <Row
+      className="group-block"
+      gutter={0}
+    >
+      <Row
+        className="f-block"
+        gutter={0}
+      >
+        <Col
+          className="title"
+          span={24}
+        >
+          Sign In
+        </Col>
+        <Col
+          span={24}
+        >
+          <LoginForm
+            email={Object {}}
+            handleChangeEmail={[Function]}
+            handleChangePass={[Function]}
+            password={Object {}}
+          />
+          <Col
+            className="btn-block"
+            span={24}
+          >
+            <Button
+              className="btn-green"
+              ghost={false}
+              loading={false}
+              onClick={[Function]}
+              prefixCls="ant-btn"
+              type="primary"
+            >
+              Sign In
+            </Button>
+          </Col>
+          <Col
+            span={24}
+          >
+            <Link
+              replace={false}
+              to="/sign-up"
+            >
+              <Row
+                className="btn-link-black"
+                gutter={0}
+              >
+                Create Account
+              </Row>
+            </Link>
+          </Col>
+        </Col>
+      </Row>
+    </Row>
+  </Auth>
+  <Col
+    className="forgot-link"
+    span={24}
+  >
+    <Link
+      replace={false}
+      to="/forgot-pass"
+    >
+      Forgot your password?
+    </Link>
+  </Col>
+</Row>
+`;

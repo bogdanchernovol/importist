@@ -1,0 +1,85 @@
+.app-layout {
+  min-height: 100vh;
+  font-family: Roboto;
+
+  .app-sider {
+    background-color: #080513;
+
+    .sider-logo-container {
+      height: 23px;
+      margin: 36px auto 36px 15px;
+
+      .sider-logo {
+        width: 20.6px;
+        height: 22.6px;    
+        margin-right: 6.2px;
+        background-image: url('../../images/flag-complex.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      .sider-logo-caption {
+        font-family: Roboto;
+        font-size: 19.8px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.3;
+        letter-spacing: 3.3px;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+
+    .app-menu-container {
+      background-color: #1b1a1e;
+
+      .view-selected {
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #4d4d4d;
+        margin-left: 25px;
+        padding-top: 18px;
+      }
+
+      .app-sider-menu {
+        background-color: transparent;
+      }
+    }
+
+    .app-sider-menu {
+      background-color: #080513;
+
+      .app-menu-item {
+        color: #ffffff;
+
+        .app-sider-icon {
+          width: 16px;
+          height: 16px;
+          min-width: 16px;
+          min-height: 16px;
+          margin-right: 12px;
+          margin-top: -3px;
+          background-color: #ffffff;
+        }
+
+        &.ant-menu-item-selected {
+          background-color: #0095ff;
+        }
+      }
+    }
+  }
+}
+
+.app-menu-item {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+}
